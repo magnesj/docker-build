@@ -16,7 +16,7 @@ jobs:
           - centos.7
           - ubuntu.18.04
     container:
-      image: 'Dockerfile.centos.7'
+      image: platograph/plato-dev:${{ matrix.tag }}
     steps:
     - uses: actions/checkout@v1
       with:
