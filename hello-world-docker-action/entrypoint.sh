@@ -13,6 +13,7 @@ yum -y install qt5-qtscript-devel
 yum -y install cmake
 yum -y install git
 yum -y install make
+yum -y install mesa-libGL-devel
 #yum -y install gcc-c++
 
 yum -y install devtoolset-6
