@@ -4,11 +4,12 @@ echo "Hello $1"
 time=$(date)
 echo ::set-output name=time::$time
 
-yum install -y qt5-qtbase
-yum install -y qt5-qtbase-devel
-yum install -y qt5-qtscript-devel
-yum install -y cmake
-yum install -y git
+yum -y install qt5-qtbase
+yum -y install qt5-qtbase-devel
+yum -y install qt5-qtscript-devel
+yum -y install cmake
+yum -y install git
+yum -y install gcc-c++
 
 cmake --version
 git --version
