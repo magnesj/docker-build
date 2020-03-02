@@ -1,5 +1,4 @@
-FROM centos:devtoolset-6-toolchain-centos7:latest
-
+FROM centos:7
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
 COPY entrypoint.sh /entrypoint.sh
