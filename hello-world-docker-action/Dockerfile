@@ -1,4 +1,4 @@
-FROM centos:devtoolset-6-toolchain-centos7
+FROM centos:devtoolset-6-toolchain-centos7:latest
 
 
 # Copies your code file from your action repository to the filesystem path `/` of the container
