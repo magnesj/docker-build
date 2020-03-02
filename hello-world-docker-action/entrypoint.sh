@@ -9,7 +9,7 @@ yum -y install qt5-qtbase-devel
 yum -y install qt5-qtscript-devel
 yum -y install cmake
 yum -y install git
-yum -y install gcc
+yum -y install make
 yum -y install gcc-c++
 
 cmake --version
