@@ -16,7 +16,8 @@ yum -y install make
 #yum -y install gcc-c++
 
 yum -y install devtoolset-6
-scl enable devtoolset-6 bash
+source /opt/rh/devtoolset-6/enable
+#scl enable devtoolset-6 bash
 
 cmake --version
 git --version
