@@ -16,5 +16,5 @@ git --version
 git clone git://github.com/OPM/ResInsight.git ResInsight
 mkdir cmakebuild
 cd cmakebuild
-cmake ..
+cmake ../ResInsight
 make -j8
