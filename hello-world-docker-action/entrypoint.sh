@@ -13,4 +13,9 @@ yum install -y git
 cmake --version
 git --version
 
-git checkout https://github.com/OPM/ResInsight.git
+git clone git://github.com/OPM/ResInsight.git ResInsight
+cd ResInsight
+mkdir cmakebuild
+cd cmakebuild
+cmake ../ResInsight
+make -j8
